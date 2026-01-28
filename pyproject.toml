@@ -1,5 +1,5 @@
 [project]
-name = "k6-mcp-server"
+name = "iflow-mcp_qainsights_k6-mcp-server"
 version = "0.1.0"
 description = "Model context protocol server for k6 load testing"
 readme = "README.md"
@@ -7,3 +7,6 @@ requires-python = ">=3.12"
 dependencies = [
     "mcp[cli]>=1.6.0",
 ]
+
+[project.scripts]
+k6-server = "k6_server:mcp"
