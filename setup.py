@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='iflow-mcp_qainsights_k6-mcp-server',
-    version='0.1.2',
+    version='0.1.3',
     packages=find_packages(),
     py_modules=['main', 'k6_server'],
     include_package_data=True,
