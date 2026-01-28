@@ -9,4 +9,4 @@ dependencies = [
 ]
 
 [project.scripts]
-k6-server = "k6_server:mcp"
+k6-server = "main:main"

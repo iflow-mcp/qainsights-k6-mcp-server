@@ -1,0 +1,1 @@
+{"serverConfig": "{\"mcpServers\":{\"k6-mcp-server\":{\"command\":\"uvx\",\"args\":[\"--from\",\"iflow-mcp_qainsights_k6-mcp-server\",\"k6-server\"],\"values\":{}}}}"}
